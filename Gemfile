@@ -24,7 +24,7 @@ gem 'responders', '~> 3.0'
 # Pinning sinatra to 2.0.2, since '~> 2.0.2' actually lands us on 2.0.5, which
 # breaks some firebase URIs. See
 # https://github.com/code-dot-org/code-dot-org/pull/31614
-gem 'sinatra', '2.0.2', require: 'sinatra/base'
+gem 'sinatra', '2.2.0', require: 'sinatra/base'
 
 gem 'mysql2', '>= 0.4.1'
 
